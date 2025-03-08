@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #800080; /* Purple color */
+    padding: 1rem;
+    border-bottom: 3px solid #4b0082; /* Darker purple */
+}
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+main.container {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    color: #800080; /* Purple color */
+    border-bottom: 2px solid #800080; /* Purple color */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+h1 {
+    color: #dda0dd; /* Light purple */
+    border-bottom: 2px solid #800080; /* Purple color */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Images */
+figure {
+    text-align: center;
+}
+figure img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+figcaption {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Buttons */
+button {
+    background-color: #800080; /* Purple color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #4b0082; /* Darker purple */
+}
+
+/* Contact Form */
+form input, form button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    margin-top: 2rem;
+}
